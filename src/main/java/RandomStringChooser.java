@@ -11,12 +11,10 @@ public class RandomStringChooser
   }
   public String getNext() {
     if(strings.size() == 0) {
-      return new String("NONE");
+      return "NONE";
     }
     int r = (int)(Math.random()*strings.size());
-    String result = strings.get(r);
-    strings.remove(r);
-    return result;
+    return (strings.remove(r));
   }
   //Heads up! 
   //You will get a very confusing error message until you have working code in part b as well
