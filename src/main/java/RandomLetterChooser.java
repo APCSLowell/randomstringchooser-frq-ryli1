@@ -5,7 +5,6 @@ public class RandomLetterChooser extends RandomStringChooser
 	{ 
 		/* to be implemented in part (b) */
 		super(getSingleLetters(str));
-		}
 	}
 	
 	
