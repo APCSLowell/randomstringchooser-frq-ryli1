@@ -5,12 +5,12 @@ public class RandomStringChooser
   private ArrayList <String> strings;
   public RandomStringChooser(String[] s) {
     strings = new ArrayList <String>();
-    for(string str : s) {
+    for(String str : s) {
       strings.add(str);
     }
   }
   public String getNext() {
-    if(Strings.size() == 0) {
+    if(strings.size() == 0) {
       return new String("NONE");
     }
     int r = (int)(Math.random()*strings.size());
