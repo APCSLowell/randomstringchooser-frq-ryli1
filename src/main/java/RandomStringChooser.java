@@ -15,7 +15,7 @@ public class RandomStringChooser
     }
     int r = (int)(Math.random()*strings.size());
     return (strings.remove(r));
-  }
+  } 
   //Heads up! 
   //You will get a very confusing error message until you have working code in part b as well
 }
